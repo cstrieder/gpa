@@ -1,0 +1,2 @@
+make clean
+rm -Rf .directory autom4te.cache src/.d* AUTHORS ChangeLog NEWS README aclocal.m4 config.h.in configure COPYING depcomp INSTALL install-sh Makefile.in missing config.h config.status Makefile stamp-h1 config.log clean
