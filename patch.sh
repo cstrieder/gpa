@@ -15,7 +15,7 @@ mkdir $instfolder
 # echo "Copying files to $instfolder..."
 cp -R bin $instfolder
 cp -R data $instfolder
-cp -R README.TXT $instfolder
+cp gpa $instfolder/bin/gpa++
 chmod +x $instfolder/bin/gpa++
 #rm $instfolder/install.sh
 
