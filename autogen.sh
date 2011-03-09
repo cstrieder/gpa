@@ -9,7 +9,7 @@ echo "Follow this instructions to install:" > README
 echo "" >> README
 echo "./configure" >> README
 echo "make" >> README
-echo "./patch.sh" >> README
+echo "./gpa-install.sh" >> README
 echo "This is the first release available at svn" > ChangeLog
 autoreconf --force --install --verbose "$srcdir"
 test -n "$NOCONFIGURE" || "$srcdir/configure" "$@"
