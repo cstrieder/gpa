@@ -14,6 +14,7 @@
 #include "display.h"
 #include <fstream>
 #include <limits>
+#include <algorithm>
 
 using namespace std;
 
@@ -269,6 +270,7 @@ void Bootstrap::genFileList(string dir) {
             filesList2.push_back(fn);
         }
     }
+    sort(filesList2.begin(), filesList2.end());
     setFiles(filesList2);
 }
 

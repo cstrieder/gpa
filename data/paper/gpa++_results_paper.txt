@@ -1,0 +1,7 @@
+#	Ga	I	L	vetores	cols	lines	delta	tau	tempo	triang	norm	search	arquivo
+1	0.0000	0	0	4	3	3	0.0001	0.0001	47	meio	amplit	original	3a.dat
+2	0.0000	0	0	8	3	3	0.0001	0.0001	41	meio	amplit	original	3b.dat
+3	0.0000	0	0	8	3	3	0.0001	0.0001	43	meio	amplit	original	3c.dat
+4	0.5000	9	6	8	3	3	0.0001	0.0001	54	meio	amplit	original	4a.dat
+5	0.7777	16	9	9	3	3	0.0001	0.0001	56	meio	amplit	original	4b.dat
+6	1.2222	20	9	9	3	3	0.0001	0.0001	52	meio	amplit	original	4c.dat
