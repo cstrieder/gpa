@@ -1,5 +1,17 @@
 Follow this instructions to install:
 
+------------------------------
+Linux:
+------------------------------
+
 ./configure
 make
-./gpa-install.sh
+./linux-install.sh
+
+------------------------------
+Mac:
+------------------------------
+
+./configure
+make
+./mac-install.sh

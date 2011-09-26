@@ -449,11 +449,11 @@ Copyright (C) 2009 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/cristiano/eclipse/gpaplusplus'
+ac_pwd='/Users/cstrieder/Downloads/gpa/gpaplusplus'
 srcdir='.'
-INSTALL='/usr/bin/ginstall -c'
-MKDIR_P='/usr/bin/mkdir -p'
-AWK='gawk'
+INSTALL='/usr/bin/install -c'
+MKDIR_P='./install-sh -c -d'
+AWK='awk'
 test -n "$AWK" || AWK=awk
 # The default lists apply if the user does not specify any file.
 ac_need_defaults=:
@@ -640,20 +640,20 @@ S["CXXFLAGS"]="-g -O2"
 S["CXX"]="g++"
 S["am__untar"]="${AMTAR} xf -"
 S["am__tar"]="${AMTAR} chof - \"$$tardir\""
-S["AMTAR"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run tar"
+S["AMTAR"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run tar"
 S["am__leading_dot"]="."
 S["SET_MAKE"]=""
-S["AWK"]="gawk"
-S["mkdir_p"]="/usr/bin/mkdir -p"
-S["MKDIR_P"]="/usr/bin/mkdir -p"
+S["AWK"]="awk"
+S["mkdir_p"]="$(top_builddir)/./install-sh -c -d"
+S["MKDIR_P"]="./install-sh -c -d"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/install-sh"
-S["MAKEINFO"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /home/cristiano/eclipse/gpaplusplus/missing --run aclocal-1.11"
+S["install_sh"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/install-sh"
+S["MAKEINFO"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /Users/cstrieder/Downloads/gpa/gpaplusplus/missing --run aclocal-1.11"
 S["VERSION"]="0.5"
 S["PACKAGE"]="gpa"
 S["CYGPATH_W"]="echo"
@@ -666,8 +666,8 @@ S["host_alias"]=""
 S["build_alias"]=""
 S["LIBS"]=""
 S["ECHO_T"]=""
-S["ECHO_N"]="-n"
-S["ECHO_C"]=""
+S["ECHO_N"]=""
+S["ECHO_C"]="\\c"
 S["DEFS"]="-DHAVE_CONFIG_H"
 S["mandir"]="${datarootdir}/man"
 S["localedir"]="${datarootdir}/locale"
