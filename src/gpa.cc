@@ -43,9 +43,9 @@ string Gpa::tuneGa(double gA) {
     if ((gA < 0) | (gA > 2)) {
         sTuneGa = "0";
     } else {
-        sprintf(ch, "%f", gA);
+        sprintf(ch, "%.10f", gA);
         str01 = ch;
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < str01.length(); i++) {
             sTuneGa.push_back(str01[i]);
         }
     }
