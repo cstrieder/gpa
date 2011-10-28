@@ -2,5 +2,5 @@ Follow this instructions to install:
 
 ./configure
 make
-./install.sh
+./gpa-install.sh
 
