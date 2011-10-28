@@ -1,17 +1,6 @@
 Follow this instructions to install:
 
-------------------------------
-Linux:
-------------------------------
-
 ./configure
 make
-./linux-install.sh
+./install.sh
 
-------------------------------
-Mac:
-------------------------------
-
-./configure
-make
-./mac-install.sh
