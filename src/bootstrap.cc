@@ -81,7 +81,7 @@ void Bootstrap::gpaManyFiles(string arg1) {
             percent = (double) ((double) (i + 1) / (double) n);
             cout << (i + 1) << "/" << n << "\t";
             if ((percent >= passo) & flag) {
-                cerr << "~" << (percent * 100) << "% of the work done...";
+//                cerr << "~" << (percent * 100) << "% of the work done...";
                 passo = passo + 0.1;
                 flag = false;
             } else {
