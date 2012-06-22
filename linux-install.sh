@@ -13,6 +13,8 @@ rm -f ~/gpa++GUI
 
 mkdir $instfolder
 # echo "Copying files to $instfolder..."
+cc -O2 -o bin/3angle triangle/triangle.c -lm
+cc -O2 -I/usr/local/include -o bin/xowme triangle/showme.c -L/usr/X11R6/lib -lX11
 cp -R bin $instfolder
 cp -R data $instfolder
 cp gpa $instfolder/bin/gpa++
