@@ -18,6 +18,15 @@ elif [ $OS == 'Linux' ]; then
         else
                 echo "Installation aborted."
         fi
+elif [ $OS == 'CYGWIN_NT-6.1' ]; then
+	echo "Windows OS detected."
+	echo "Proceed? [y]"
+        read CONFIRM
+        if [ $CONFIRM == 'y' ]; then
+                sh cygwin-install.sh
+        else
+                echo "Installation aborted."
+        fi
 else
 	echo "Nor a Linux or Mac OS detected. Please contact cstrieder@gmail.com and inform your OS."
 fi
