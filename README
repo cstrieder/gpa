@@ -1,6 +1,19 @@
-Follow this instructions to install:
+Installation instructions
 
-./configure
-make
-./gpa-install.sh
+Linux (Slackware 13.1):
 
+$ ./configure
+$ ./make
+$ ./gpa-install.sh
+
+Mac (OS X Yosemite):
+
+$ ./configure
+$ ./make
+$ ./gpa-install.sh
+
+Windows (via Cygwin):
+
+$ ./configure
+$ ./make
+$ ./gpa-install.sh
